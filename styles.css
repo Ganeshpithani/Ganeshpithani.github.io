@@ -350,3 +350,22 @@ nav a:hover {
   overflow: hidden; /* Ensure the map stays within the container */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+
+/* container */
+.box {
+  width: 80%; /* Adjust width as needed */
+  margin: auto; /* Centers the carousel */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+  object-fit: contain; /* Ensures full image is visible without cropping */
+}
+
+.carousel {
+  max-width: 900px; /* Adjust as needed */
+  margin: auto;
+  background-color: black; /* Optional: adds a background to fill empty spaces */
+}
+
