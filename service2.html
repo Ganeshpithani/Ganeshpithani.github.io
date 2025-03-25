@@ -79,6 +79,27 @@
     </section>
   </main>
 
+  <!-- scrol button  -->
+  <button id="scrollUpBtn" onclick="scrollToTop()">↑</button>
+  <script>
+    window.onscroll = function () {
+        toggleScrollButton();
+    };
+
+    function toggleScrollButton() {
+        let button = document.getElementById("scrollUpBtn");
+        if (document.documentElement.scrollTop > 100) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+</script>
+
   <!-- Footer -->
   <footer>
     <p>&copy; 2015 Neelima Ice Cream. All rights reserved.</p>
