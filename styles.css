@@ -369,3 +369,52 @@ nav a:hover {
   background-color: black; /* Optional: adds a background to fill empty spaces */
 }
 
+
+
+.about h2 {
+  text-align: center;
+}
+
+.about div {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about img {
+  max-width: 200px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+}
+
+.cmp-image__image {
+  max-width: 100px;
+  margin: 0 1rem;
+}
+
+
+
+#scrollUpBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 123, 255, 0); /* Light transparent blue */
+  color: white;
+  border: 2px solid #007bff06; /* Optional: Add border for visibility */
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+#scrollUpBtn:hover {
+  background-color: rgba(0, 123, 255, 0.023); /* Slightly darker on hover */
+}
+
+
+.social-icons {
+  margin-top: 1rem;
+}
